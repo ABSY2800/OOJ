@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panier avec articles présélectionnés</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="cart">
+    <h1>Shopping Cart</h1>
+    <ul id="item-list">
+      <li data-id="1" data-price="25000">
+        <img src="https://i.pinimg.com/236x/fe/62/b8/fe62b8d3274f6d2375b72cae332c686c.jpg" alt="HERMES BURKIN">
+        <span>HERMES BURKIN</span>
+        <span>Prix: 25000 XOF</span>
+        <button class="remove">Supprimer</button>
+        <span class="quantity">0</span>
+        <button class="minus">-</button>
+        <button class="plus">+</button>
+        <button class="like">❤</button>
+      </li>
+      <li data-id="2" data-price="20000">
+        <img src="https://i.pinimg.com/236x/51/b0/ed/51b0ed81018f334f25246b69f66d410c.jpg" alt="LOUIS VUITTON">
+        <span>LOUIS VUITTON</span>
+        <span>Prix: 20000 XOF</span>
+        <button class="remove">Supprimer</button>
+        <span class="quantity">0</span>
+        <button class="minus">-</button>
+        <button class="plus">+</button>
+        <button class="like">❤</button>
+      </li>
+      <li data-id="3" data-price="15000">
+        <img src="https://i.pinimg.com/236x/db/8d/43/db8d43d9ce901f9236f315efbbb21a92.jpg" alt="ENDI">
+        <span>FENDI</span>
+        <span>Prix: 25000 XOF</span>
+        <button class="remove">Supprimer</button>
+        <span class="quantity">0</span>
+        <button class="minus">-</button>
+        <button class="plus">+</button>
+        <button class="like">❤</button>
+      </li>
+    </ul>
+    <p>Total: XOF <span id="total-price">0</span></p>
+  </div>
+
+  <div class="products">
+    <h2>Products</h2>
+    <div class="product-list" id="product-list">
+      <!-- Product items will be populated here -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
